@@ -1,3 +1,11 @@
+/*
+ * @Author: Jesslynwong jesslynwjx@gmail.com
+ * @Date: 2022-12-04 15:36:57
+ * @LastEditors: Jesslynwong jesslynwjx@gmail.com
+ * @LastEditTime: 2022-12-14 10:37:34
+ * @FilePath: /blog2.0_immgration/blog/src/pages/index.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
@@ -87,10 +95,10 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       {/* <HomepageHeader /> */}
-      {/* <main> */}
+      <main>
         {/* <HomepageFeatures /> */}
         <Introduction/>
-      {/* </main> */}
+      </main>
     </Layout>
   );
 }

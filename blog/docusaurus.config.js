@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '欢迎探索 Jesslyn 的世界 🏖️',
+  title: 'Jesslyn 的世界 🏖️',
   tagline: 'Always Exploring 🚀',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -64,11 +64,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'WIKI',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Jesslynwong',
             label: 'GitHub',
             position: 'right',
           },
